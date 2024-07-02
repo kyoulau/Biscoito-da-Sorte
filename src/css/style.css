@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main-class-container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+.main-div-container {
+  background-color: palevioletred;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 12px;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgb(131 131 131);
+  -moz-box-shadow: 10px 10px 5px 0px rgb(131 131 131);
+  box-shadow: 10px 10px 5px 0px rgb(131 131 131);
+}
+
+.imagem-biscoito {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.imagem-biscoito:hover {
+  transform: scale(1.1);
+}
+
+.main-text {
+  font-weight: 500;
+  font-family: system-ui;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  padding: 20px;
+}
+
+.emo-button {
+  background-color: #2e2e2e; /* Fundo escuro */
+  border: 2px solid #ff005a; /* Borda rosa choque */
+  border-radius: 5px; /* Bordas levemente arredondadas */
+  font-family: "Lucida Blackletter", "Cursive", "Times New Roman"; /* Fonte gótica */
+  font-size: 18px; /* Tamanho da fonte */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-transform: uppercase; /* Letras maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  cursor: pointer; /* Cursor de mãozinha */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+.emo-button:hover {
+  background-color: #ff005a; /* Fundo muda para rosa choque */
+  color: #2e2e2e; /* Texto muda para preto */
+  transform: scale(1.05); /* Aumenta ligeiramente ao passar o mouse */
+}
+
+.emo-button:active {
+  transform: scale(1); /* Volta ao tamanho original ao clicar */
+  background-color: #d40047; /* Fundo fica um pouco mais escuro ao clicar */
+}
